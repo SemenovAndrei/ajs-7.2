@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-import Validator from './validator';
+import numberFormatting from './phones';
 
-const name = 'name';
-const validator = new Validator(name);
+const phone = '+7(921)763-88-98';
+const result = numberFormatting(phone);
 
-console.log(validator.validateUsername());
+console.log(result);
